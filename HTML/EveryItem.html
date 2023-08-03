@@ -1,11 +1,153 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Text formating</title>
+    <title>Document</title>
+    <style>
+        html, body {
+            height: 100%;
+        }
+        html {
+            display: table;
+            margin: auto;
+        }
+        body {
+            display: table-cell;
+            vertical-align: middle;
+        }
+        .practice {
+            margin-top: 10%;
+            margin-bottom: 10%;
+            padding: 20px;
+            border-radius: 10px;
+            box-shadow: 0px 10px 50px 10px #fffd78;
+        }
+        .gcpsc {
+            background-color: rgb(255, 208, 0);
+            border: 1px solid #000000;
+            border-radius: 3px;
+            padding: 10px;
+        }
+    </style>
 </head>
 <body>
-    
+    <section class="practice">
+        <!--Text formating start-->
+        <p>This is a html page</p>
+        <p>This is a normal text</p>
+        <p><b>This is bold text</b></p>
+        <p><i>This is italic text</i></p>
+        <p><u>This is underlined</u></p>
+        <p>(a+b)<sup>2</sup>=a<sup>2</sup>+2ab+b<sup>2</sup></p>
+        <p>f<sub>n</sub>+f<sub>n-1</sub>+f<sub>n-2</sub></p>
+        <h1>This is heading 1</h1>
+        <h2>This is heading 2</h2>
+        <h3>This is heading 3</h3>
+        <h4>This is heading 4</h4>
+        <h5>This is heading 5</h5>
+        <h6>This is heading 6</h6>
+        <!--Text formating end-->
+
+        <!--ul & ol start-->
+        <ul type="circle">
+            <li>Dhaka</li>
+            <ol type="I">
+                <li>Dhaka</li>
+                <li>Tangail</li>
+                <li>Ghatail</li>
+            </ol>
+            <li>Chittagong</li>
+            <ul type="disc">
+                <li>Dhaka</li>
+                <li>Tangail</li>
+                <li>Ghatail</li>
+            </ul>
+            <li>Rajshahi</li>
+            <ul type="square">
+                <li>Dhaka</li>
+                <li>Tangail</li>
+                <li>Ghatail</li>
+            </ul>
+            <li>Barishal</li>
+            <ol type="i">
+                <li>Dhaka</li>
+                <li>Tangail</li>
+                <li>Ghatail</li>
+            </ol>
+            <li>Sylhet</li>
+            <ol type="A">
+                <li>Dhaka</li>
+                <li>Tangail</li>
+                <li>Ghatail</li>
+            </ol>
+        </ul>
+        <ol type="a" start="5">
+            <li>Dhaka</li>
+            <li>Tangail</li>
+            <li>Ghatail</li>
+            <li>Dhaka</li>
+            <li>Tangail</li>
+            <li>Ghatail</li>
+            <li>Dhaka</li>
+            <li>Tangail</li>
+            <li>Ghatail</li>
+            <li>Dhaka</li>
+            <li>Tangail</li>
+            <li>Ghatail</li>
+            <li>Dhaka</li>
+            <li>Tangail</li>
+            <li>Ghatail</li>
+            <li>Dhaka</li>
+            <li>Tangail</li>
+            <li>Ghatail</li>
+            <li>Dhaka</li>
+            <li>Tangail</li>
+            <li>Ghatail</li>
+            <li>Dhaka</li>
+            <li>Tangail</li>
+            <li>Ghatail</li>
+            <li>Dhaka</li>
+            <li>Tangail</li>
+            <li>Ghatail</li>
+            <li>Dhaka</li>
+            <li>Tangail</li>
+            <li>Ghatail</li>
+        </ol>
+        <!--ul & ol End-->
+
+        <!--HyperLink & Image start-->
+        <div class="aimg">
+            <a class="gcpsc" href="wwww.gcpsc.edu.bd">GCPSC</a>
+            <img src="file:///C:/Users/user/Downloads/alone.jpg" width="200px" height="200px">
+        </div>
+        <!--HyperLink & Image end-->
+
+        <!--Table start-->
+        <table border="1" cellpadding="5" cellspacing="0">
+            <caption>Student-info</caption>
+            <thead align="center" style="color:whitesmoke; background-color:darkgreen;">
+                <tr >
+                    <th style="width: 200px;" >Student Name</th>
+                    <th style="width: 200px;" colspan="2">Subject</th>
+                </tr>
+            </thead>
+            <tbody align="center">
+                <tr>
+                    <td rowspan="3">Rifat</td>
+                    <td>Bangla</td>
+                    <td>Math</td>
+                </tr>
+                </td>
+                <tr>
+                    <td>English</td>
+                    <td>Physics</td>
+                </tr>
+                <tr>
+                    <td>ICT</td>
+                    <td>Chemistry</td>
+                </tr>
+            </tbody>
+        </table>
+        <!--Table End-->
+    </section>
 </body>
 </html>
